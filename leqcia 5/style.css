@@ -1,0 +1,58 @@
+.initial {
+    background-color:#ff0000;
+    width: 200px;
+    height: 200px;
+}
+
+.initial > div {
+    background-color: #0800ff;
+    height: 30px;
+    border: 2px solid #000000;
+}
+
+.initial p {
+    background-color: #ccff00;
+    height: 30px;
+    border: 2px solid #ff00fb;
+} 
+ 
+.initial .childOfFirst {
+    background-color: #ff9d00;
+}
+
+
+.focusTest:focus {
+    background-color: #00ff00;
+}
+
+
+
+.toBorder {
+    width: 100px;
+    height: 100px;
+    background: url('test.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.calcExample {
+    height: 100px;
+    /* width: calc(100% - 100px); */
+    width: max(700px, 50%);
+    background-color: #ff00fb;
+    
+}
+
+.calcExample:hover {
+    background-color: #3a0039;
+    border-radius: 100px;
+    opacity: 1;
+}
+
+
+
+img {
+    border-radius: 50%;
+}
