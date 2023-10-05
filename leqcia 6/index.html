@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<!-- 
+    <div class="imageElement">
+         <img src="test.jpg" style="width: 100%; height: auto;">
+    </div> -->
+
+    <picture>
+        <source srcset="apple.jpg" media="(max-width: 600px)">
+        <source srcset="bird.jpg" media="(max-width: 900px)">
+        <img src="test.jpg" alt="koala">
+    </picture>
+
+    <!-- <div class="fixedElement">this is an ad!</div> -->
+    <div style="display: flex;">
+        <div class="standartElement">starting div</div>
+        <div id="uniqueElement" class="standartElement" >
+            <div class="subChild" style="z-index: 10; width: 50px; height: 50px; background-color: #00ffff;"> child </div>
+            <div class="subChild" style="width: 50px; height: 50px; background-color: #ff00b3;"> child 2 </div>
+        </div>
+        <div class="standartElement hideWhenSmall">third div</div>
+    </div>
+    
+    <div class="hideWhenBig">
+        <div class="standartElement">third div</div>
+    </div>
+
+
+
+    <div class="parent">
+        <div class="standartElement">
+            <img src="test.jpg" style="width: 100%; height: auto;">
+        </div>
+        <div class="standartElement longText"> elemnt 2elemnt 2elemnt 2 ele
+            elemnt 2elemnt 2elemnt 2mnt 2elemnt 2elemnt 2elemnt 2elemnt 2
+            elemnt 2
+            elemnt 
+            elemnt 2
+            elemnt 2
+            elemnt 2elemnt 2elemnt 2elemnt 2elemnt 2elemnt 2elemnt 2elemnt 2elemnt 2elemnt 2elemnt 2elemnt 2elemnt 2elemnt 2elemnt 2elemnt 2elemnt 2elemnt 2elemnt 2elemnt 2elemnt 2elemnt 2
+            elemnt 2elemnt 2
+        </div>
+        <div class="standartElement">element 3</div>
+    </div>
+
+
+</body>
+
+</html>
