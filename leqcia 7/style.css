@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+.news_item {
+    margin-bottom: 10px;
+    /* width: 300px; */
+    border: 1px solid #000000;
+}
+
+.news_item img {
+    width: 150px;
+}
+
+.news_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*flex-flow: row wrap; */
+
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.news_item {
+    flex-basis: 300px;
+}
+
+.item1 {
+    flex-grow: 2;
+}
+
+.item2 {
+    flex-grow: 2;
+}

@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(126, 128, 98);
+}
+
+.make-border {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 10px;
+}
+
+.container {
+    width: 1000px;
+    min-height: 600px;
+    margin: 0px auto;
+    background-color: #c3c3c3;
+}
+
+.header {
+    height: 100px;
+}
+
+.header img {
+    height: 90%;
+}
+.header p {padding-top: 40px;}
+
+.header img, .header p {
+    float: left;
+    margin-right:10px;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+}
+.banner_text {
+    font-size: 20px;
+    color: #eaff00;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+.blog {
+    display: flex;
+    margin-top: 20px;
+}
+
+.blog_items {
+    width: 220px;
+    margin: 0 10px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.blog_items img {
+    height: 70%;
+}
+
+.contact {
+    
+    margin-top: 40px;
+}
+.contact__frame {
+    display: flex;
+    margin: 0px auto;
+    width: fit-content;
+}
+
+.contact img {
+    border-radius: 50%;
+}
+
+.fields {
+    margin-right: 30px;
+}
+.fields div {
+    margin-bottom: 10px;
+}
+
+.footer img {
+    width: 50px;
+    margin: 20px auto 0;
+    display: block;
+}
