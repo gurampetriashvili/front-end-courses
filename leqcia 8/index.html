@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+        var multiplier = 2;
+        var standartText = 'hello world';
+        
+        console.log(standartText);
+        console.log(document.getElementById('test').innerHTML);
+        /* document.getElementById('test').innerHTML = 'this text was edited' */
+    
+        function messageLogger() {
+            
+            if (multiplier === 5) {
+                document.getElementById('test').innerHTML = 'tolia';
+            } else if (multiplier > 5) {
+                document.getElementById('test').innerHTML = 'metia';
+            } else if (multiplier < 5) {
+                document.getElementById('test').innerHTML = 'naklebia';
+            } else {
+                document.getElementById('test').innerHTML = 'arascrori matematikuri operacia';
+            }
+
+
+
+            // document.getElementById('test').innerHTML = standartText;
+            alert('function worked');
+        }
+    
+    
+        function funqciisSaxeli() {
+            alert(standartText);
+            multiplier = multiplier + 1;
+            alert(multiplier);
+        }
+    
+    </script>
+    
+    
+</head>
+
+<body>
+
+
+    <div class="gridDemo">
+        <div class="gridItem item1">
+            <div style="display: flex; flex-wrap: wrap; flex-direction: c;">
+                <div>news</div>
+                <div>news</div>
+                <div>news</div>
+                <div>news</div>
+                <div>news</div>
+            </div>
+        </div>
+        <div class="gridItem"> 2</div>
+        <div class="gridItem"> 3</div>
+        <div class="gridItem"> 4</div>
+        <div class="gridItem"> 5</div>
+        <div class="gridItem"> 6</div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div id="test">text</div>
+    <div class="button" onclick="messageLogger()">click me</div>
+    <div class="button" onclick="funqciisSaxeli()">click me another</div>
+
+
+
+</body>
+
+</html>
+

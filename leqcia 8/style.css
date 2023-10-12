@@ -1,0 +1,24 @@
+.button {
+    width: 50px;
+    height: 50px;
+    background-color: #ff0000;
+    cursor: pointer;
+}
+
+.gridDemo {
+    display: grid;
+    grid-template-columns: 100px auto 500px;
+    column-gap: 10px;
+    row-gap: 20px;
+
+}
+
+.gridItem {
+    background-color: #00ff00;
+    
+}
+
+.item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
