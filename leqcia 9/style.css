@@ -1,0 +1,18 @@
+.buttonDiv {
+    width: 50px;
+    height: 50px;
+    background-color: #ff0000;
+    cursor: pointer;
+}
+.blue {
+    background-color: #0000ff;
+}
+.green {
+    background-color: #00ff00;
+}
+
+#textReceive {
+    font-size: 2em;
+    color: #84efef;
+    margin-top: 20px;
+}
