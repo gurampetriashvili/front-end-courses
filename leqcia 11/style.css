@@ -1,0 +1,27 @@
+#myCar {
+    border: 1px solid #000000;
+    display: flex;
+    width: 400px;
+    height: 100px;
+    gap: 20px;
+}
+
+.desc {
+    display: flex;
+}
+
+.image {
+    width: 20%;
+    overflow: hidden;
+}
+
+.image img {
+    height: 100%;
+}
+
+#suggest {
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}

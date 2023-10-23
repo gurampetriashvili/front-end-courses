@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+</head>
+
+<body onload="startValues()">
+
+    <button onclick="logger()">log something</button>
+
+
+    <div>which car to diplay: <input id="carNumber"></div>
+    <button onclick="numberDisplay()">number of car to display</button>
+
+
+    <div id="myCar">
+        <div class="image"><a href="details.html"><img id="carImage" ></a></div>
+        <div class="textInfo">
+            <div id="fullCar"></div>
+            <div class="desc">name: <div id="carName"></div>
+            </div>
+            <div class="desc">model: <div id="carModel"></div>
+            </div>
+            <div class="desc">year: <div id="carYear"></div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div>enter car name:<input id="inputName"></div>
+        <div>enter car Model:<input id="inputModel"></div>
+        <div> enter car Year:<input id="inputYear"></div>
+    </div>
+    <button onclick="changeCar()">change car</button>
+
+</body>
+
+</html>
