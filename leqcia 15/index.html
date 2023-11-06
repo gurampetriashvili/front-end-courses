@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+</head>
+
+<body onload="printMessage()">
+
+    <div id="info"></div>
+
+
+    <button onclick="printButton(this)" id="btn">click me!</button>
+
+    <div style="margin-top: 50px;">
+        car:
+        <form id="carForm" onsubmit="return validateForm()"> 
+            <input name="brand" placeholder="brand" required>
+            <input name="model" placeholder="model">
+            <!-- <input type="submit" value="add car"> -->
+        </form>
+        <button onclick="addCar()">click me to fill</button>
+    </div>
+
+    <div id="carList" style="margin-top: 50px;">
+
+    </div>
+
+</body>
+
+</html>
