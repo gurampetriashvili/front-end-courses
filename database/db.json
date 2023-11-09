@@ -1,0 +1,15 @@
+{
+    "posts": [
+      { "id": 1, "title": "news 1", "text": "long text in news 1", "category": "sports", "img": "images/pic1.jpg" },
+      { "id": 2, "title": "news 2", "text": "long text in news 2", "category": "politics"  },
+      { "id": 3, "title": "news 3", "text": "long text in news 3", "category": "politics"  },
+      { "id": 4, "title": "news 4", "text": "long text in news 4", "category": "economics"  },
+      { "id": 5, "title": "news 5", "text": "long text in news 5", "category": "sports"  },
+      { "id": 6, "title": "news 6", "text": "long text in news 6" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+  }
+

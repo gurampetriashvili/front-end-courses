@@ -1,0 +1,21 @@
+.news__item {
+    border: 2px solid #000000;
+    min-height: 50px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+#politics {
+    border: 1px solid #ff0000;
+}
+#sports {
+    border: 1px solid #00ff00;
+}
+#economics {
+    border: 1px solid #0000ff;
+}
+
+#politics, #sports, #economics {
+    padding: 20px;
+    margin: 10px;
+}
