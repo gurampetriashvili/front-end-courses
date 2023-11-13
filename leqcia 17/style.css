@@ -1,0 +1,19 @@
+#task {
+    display: flex;
+    gap: 20px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list__item {
+    border: 2px solid #000000;
+}
