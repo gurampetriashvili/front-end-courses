@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+</head>
+
+<body onload="getData()">
+
+    <form id="task" action="" onsubmit="return false">
+        <div class="left">
+            <div>
+                <div>Task name: </div>
+                <input id="taskName" name="taskName">
+            </div>
+            <div>
+                <div>Task desc: </div>
+                <input  name="taskDescription">
+            </div>
+            <div>
+                <div>Task assignee: </div>
+                <input  name="taskAssignee">
+            </div>
+            
+        </div>
+        <div class="right">
+            <div>
+                <div>Task status: </div>
+                <select name="taskStatus">
+                    <option value="toDo">To do</option>
+                    <option value="inProgess">In progress</option>
+                    <option value="testing">In Testing</option>
+                    <option value="done">Done</option>
+                </select>
+            </div>
+            <div>
+                <button onclick="addTask()">Add task</button>
+            </div>
+            
+            
+        </div>
+    </form>
+    <div class="tasks">
+        <div id="toDo" class="tasks_container"></div>
+        <div id="progress" class="tasks_container"></div>
+        <div id="testing" class="tasks_container"></div>
+        <div id="done" class="tasks_container"></div>
+    </div>
+
+
+
+</body>
+
+</html>

@@ -58,53 +58,32 @@
   ],
   "tasks": [
     {
-      "name": "asd",
-      "desc": "asd",
-      "assign": "asd",
+      "name": "task 1",
+      "desc": "task 1 description",
+      "assign": "gurami",
       "status": "toDo",
       "id": 1
     },
     {
-      "name": "sdff",
-      "desc": "sdfsdf",
-      "assign": "sdfsdf",
+      "name": "task 2",
+      "desc": "task 2 description",
+      "assign": "giorgi",
+      "status": "inProgess",
+      "id": 1
+    },
+    {
+      "name": "task 3",
+      "desc": "task 3 desc",
+      "assign": "mariami",
       "status": "toDo",
       "id": 2
     },
     {
-      "name": "sdf",
-      "desc": "sdf",
-      "assign": "sdfsd",
-      "status": "toDo",
-      "id": 3
-    },
-    {
-      "name": "d",
-      "desc": "dfg",
-      "assign": "df",
-      "status": "toDo",
-      "id": 4
-    },
-    {
-      "name": "header",
-      "desc": "header build",
-      "assign": "guram",
-      "status": "inProgess",
-      "id": 5
-    },
-    {
-      "name": "sfdsdf",
-      "desc": "sdfsdf",
-      "assign": "sdfsdf",
-      "status": "inProgess",
-      "id": 6
-    },
-    {
-      "name": "taks made",
-      "desc": "asdasd ",
-      "assign": "ddddd",
+      "name": "task 4",
+      "desc": "task 4 desc",
+      "assign": "nino",
       "status": "done",
-      "id": 7
+      "id": 3
     }
   ]
 }
